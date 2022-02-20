@@ -33,3 +33,4 @@ jobs:
             heroku_app_name: "pokefso"
             heroku_email: "martin.campuzano.flores@gmail.com"
             procfile: "web: npm run start-prod"
+            healthcheck: "https://pokefso.herokuapp.com/health"
